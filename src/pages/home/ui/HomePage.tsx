@@ -1,11 +1,11 @@
 import { Container, Section, Title } from "@/shared";
-import { Slide, Slider } from "./swiper";
-import { SmallBanner } from "./small-banner";
+import { Slide, Slider } from "../../../shared/ui/swiper";
+import { SmallBanner } from "../../../shared/ui/small-banner";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { IPost, PostList } from "@/entities/post";
-import { ILink, Links } from "./links";
-import { Docs, IDoc } from "./docs";
+import { ILink, Links } from "../../../shared/ui/links";
+import { Docs, IDoc } from "../../../shared/ui/docs";
 import Image from "next/image";
 import { PostSlider } from "@/entities/post/ui/post-slider";
 import { FeedbackForm } from "@/widgets/feedback-form/ui/feedback-form";
