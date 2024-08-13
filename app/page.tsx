@@ -1,2 +1,4 @@
-export { HomePage as default } from '@/pages/home';
-import React from 'react'
+// app/page.tsx
+import { HomePage } from '@/pages/home';
+
+export default HomePage;
